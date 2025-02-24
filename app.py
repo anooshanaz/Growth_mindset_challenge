@@ -1,5 +1,4 @@
 
-from psutil import users
 import streamlit as st
 
 #page setup
@@ -51,7 +50,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Sidebar for RGB sliders
+# Sidebar 
 st.sidebar.markdown('<p class="sidebar-title">🦋 Anoosha Naz 🦋</p>', unsafe_allow_html=True)
 st.sidebar.markdown('<p class="sidebar-subheader">Welcome to my Streamlit app!</p>', unsafe_allow_html=True)
 
