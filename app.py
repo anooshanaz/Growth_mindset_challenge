@@ -50,12 +50,12 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Sidebar 
+# Sidebar for RGB sliders
 st.sidebar.markdown('<p class="sidebar-title">🦋 Anoosha Naz 🦋</p>', unsafe_allow_html=True)
 st.sidebar.markdown('<p class="sidebar-subheader">Welcome to my Streamlit app!</p>', unsafe_allow_html=True)
 
 st.sidebar.markdown('<p class="sidebar-title">🔰 Learning Hub 🔰</p>', unsafe_allow_html=True)
-st.sidebar.markdown('<p class="sidebar-title">🌲 Growth Mindset Challenge 🌲</p>', unsafe_allow_html=True)
+st.sidebar.markdown('<h1 class="sidebar-title">🌲 Growth Mindset Challenge 🌲</h1>', unsafe_allow_html=True)
 
 st.sidebar.write('What your challenge today?')
 users_input = st.sidebar.text_input("Describe a challenge you're facing?")
@@ -82,27 +82,27 @@ else:
     st.sidebar.warning('Big or small every acheivement count! share one now🥳')
 
 # Main content
-st.markdown('<p class="main-title">🌴 GROWTH MINDSET CHALLENGE! 🌴</p>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">🌴 GROWTH MINDSET CHALLENGE!</h1>', unsafe_allow_html=True)
 st.write("A growth mindset is the belief that your abilities and intelligence can be developed through **hard work, perseverance, and learning from your mistakes**. ✈️")
 
 # Motivational section
-st.markdown('<p class="header-text">💫💫💫 Why Adopt A Growth Mindset? 💫💫💫</p>', unsafe_allow_html=True)
+st.markdown('<h2 class="header-text">💫💫💫 Why Adopt A Growth Mindset? 💫💫💫</h2>', unsafe_allow_html=True)
 
-st.markdown('<p class="subheader-text">🔥 Embrace Challenges</p>', unsafe_allow_html=True)
+st.markdown('<h3 class="subheader-text">🔥 Embrace Challenges</h3>', unsafe_allow_html=True)
 st.write("View obstacles as opportunities to learn rather than setbacks.")
 
-st.markdown('<p class="subheader-text">❄️ Learn from Mistakes</p>', unsafe_allow_html=True)
+st.markdown('<h3 class="subheader-text">❄️ Learn from Mistakes</h3>', unsafe_allow_html=True)
 st.write("Making mistakes is a natural part of learning.")
 
-st.markdown('<p class="subheader-text">💪 Persist Through Difficulties</p>', unsafe_allow_html=True)
+st.markdown('<h3 class="subheader-text">💪 Persist Through Difficulties</h3>', unsafe_allow_html=True)
 st.write("Stay determined, even when things get tough.")
 
-st.markdown('<p class="subheader-text">🥳 Celebrate Effort</p>', unsafe_allow_html=True)
+st.markdown('<h3 class="subheader-text">🥳 Celebrate Effort</h3>', unsafe_allow_html=True)
 st.write("Recognize and reward the effort you put into learning.")
 
-st.markdown('<p class="subheader-text">🔎 Keep an Open Mind</p>', unsafe_allow_html=True)
+st.markdown('<h3 class="subheader-text">🔎 Keep an Open Mind</h3>', unsafe_allow_html=True)
 st.write("Stay curious and be willing to adapt.")
 
 # Footer
 st.markdown("---")
-st.markdown('<p class="footer-text">Remember: Your journey in education is not just about proving your intelligence — it\'s about developing it! 🌟</p>', unsafe_allow_html=True)
+st.markdown('<h4 class="footer-text">Remember: Your journey in education is not just about proving your intelligence — it\'s about developing it! 🌟</h4>', unsafe_allow_html=True)
